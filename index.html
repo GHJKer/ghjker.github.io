@@ -4,12 +4,315 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
-    <script type="module" crossorigin src="/assets/index-d78b2a2c.js"></script>
-    <link rel="stylesheet" href="/assets/index-ce8aa0d5.css">
+    <title>Business Support</title>
+    <script type="module" crossorigin src="/assets/index-4af9ce47.js"></script>
+    <link rel="stylesheet" href="/assets/index-5e799894.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app" class="main-container">
+      <header class="header container">
+        <div class="header__content">
+          <img class="logo" src="/svg/logo.svg" alt="company logo" />
+          <div class="header__images-group">
+            <img
+              class="header__tel-img svg-24"
+              src="/svg/phone.svg"
+              alt="phone image"
+            />
+            <div class="header__search-menu">
+              <img
+                class="svg-24"
+                src="/svg/burger-menu.svg"
+                alt="burger-menu image"
+              />
+              <span class="header__text header--header-font">Меню</span>
+            </div>
+            <div class="header__search-menu">
+              <img class="svg-24" src="/svg/loupe.svg" alt="loupe image" />
+              <span class="header__text header--header-font">Поиск</span>
+            </div>
+          </div>
+          <div class="header__contacts-media">
+            <div class="header__tel header--header-font">
+              <a href="tel:8 (800) 707-07-11">8 (800) 707-07-11</a>
+            </div>
+            <div class="header__media-group">
+              <a href="https://ok.ru/" target="”_blank”">
+                <img class="svg-24" src="/svg/ok.svg" alt="ok" />
+              </a>
+              <a href="https://vk.com/" target="”_blank”">
+                <img class="svg-24" src="/svg/vk.svg" alt="vk" />
+              </a>
+              <a href="https://web.telegram.org/z/" target="”_blank”">
+                <img class="svg-24" src="/svg/tg.svg" alt="tg" />
+              </a>
+              <a href="https://rutube.ru/" target="”_blank”">
+                <img
+                  class="header__ru-img svg-24"
+                  src="/svg/ru.svg"
+                  alt="rutube"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="info">
+          <div class="info__text-container">
+            <div id="text-block" class="info__text-block">
+              <h1 class="info__big-text">ПОДДЕРЖКА МАЛОГО БИЗНЕСА</h1>
+              <p class="info__small-text">
+                Комплексная поддержка предпринимателей Краснодарского края
+              </p>
+            </div>
+            <div>
+              <button id="open-modal-btn" class="info__button">
+                Оставить заявку
+              </button>
+              <div class="info__pagination-container">
+                <div class="info__pagination info__small-text">
+                  <span>01</span>
+                  <div id="black-light" class="info__black-light"></div>
+                  <span>05</span>
+                </div>
+                <div class="info__arrow-container">
+                  <img
+                    id="left"
+                    class="info__arrow"
+                    src="/svg/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    id="right"
+                    class="info__arrow-right info__arrow"
+                    src="/svg/arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="slider-window" class="info__slider-window">
+            <div id="slider" class="info__slider">
+              <div id="img-1" class="info__img-big">
+                <img
+                  draggable="false"
+                  class="info__picture"
+                  src="images/img1.png"
+                  alt="carousel img"
+                />
+                <div class="info__slide-text-group">
+                  <span>Школа молодого предпринимателя — Бизнес молодых</span>
+                  <div class="info__about-group">
+                    <span class="affiche__more">Подробнее</span>
+                    <img
+                      draggable="false"
+                      class="info__slide-arrow"
+                      src="/svg/angled-arrow.svg"
+                      alt="control-arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div id="img-2" class="info__img">
+                <img
+                  draggable="false"
+                  class="info__picture"
+                  src="images/img2.png"
+                  alt="carousel img"
+                />
+                <div class="info__slide-text-group">
+                  <span>Поддержка самозанятых</span>
+                </div>
+              </div>
+              <div id="img-3" class="info__img">
+                <img
+                  draggable="false"
+                  class="info__picture"
+                  src="images/img3.png"
+                  alt="carousel img"
+                />
+                <div class="info__slide-text-group">
+                  <span>Центр поддержки предпринимательства</span>
+                </div>
+              </div>
+              <div id="img-4" class="info__img">
+                <img
+                  draggable="false"
+                  class="info__picture"
+                  src="images/img4.png"
+                  alt="carousel img"
+                />
+                <div class="info__slide-text-group">
+                  <span>Центр сопровождения инвестиционных проектов</span>
+                </div>
+              </div>
+              <div id="img-5" class="info__img">
+                <img
+                  draggable="false"
+                  class="info__picture"
+                  src="images/img5.png"
+                  alt="carousel img"
+                />
+                <div class="info__slide-text-group">
+                  <span>Патентная система налогообложения</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calendar-affiche">
+          <h2 class="calendar-affiche__header">АФИША СОБЫТИЙ</h2>
+          <div class="calendar-affiche__container">
+            <div class="calendar">
+              <div class="calendar__control">
+                <img
+                  id="next-month"
+                  class="calendar-affiche__arrow"
+                  src="/svg/arrow.svg"
+                  alt="arrow"
+                />
+                <span id="month-text" class="calendar__month-text"
+                  >Февраль 2023</span
+                >
+                <img
+                  id="prev-month"
+                  class="calendar-affiche__arrow-right calendar-affiche__arrow"
+                  src="/svg/arrow.svg"
+                  alt="arrow"
+                />
+              </div>
+              <div id="calendar" class="calendar__days"></div>
+            </div>
+            <div id="affiche" class="affiche">
+              <img
+                id="prev-event"
+                class="affiche__arrow-left"
+                src="/svg/arrow.svg"
+                alt="arrow"
+              />
+              <img
+                id="next-event"
+                class="affiche__arrow-right"
+                src="/svg/arrow.svg"
+                alt="arrow"
+              />
+              <img
+                id="prev-event-small"
+                class="calendar-affiche__arrow-mobile calendar-affiche__arrow-mobile--left"
+                src="/svg/arrow-mobile.svg"
+                alt="arrow"
+              />
+              <img
+                id="next-event-small"
+                class="calendar-affiche__arrow-mobile calendar-affiche__arrow-mobile--right"
+                src="/svg/arrow-mobile.svg"
+                alt="arrow"
+              />
+              <span id="affiche-date" class="affiche__date">13 / 12 / 22</span>
+              <p id="affiche-text" class="affiche__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tenetur, iste odio id laboriosam ullam ab provident modi
+                deleniti!.
+              </p>
+              <div class="affiche__about">
+                <div class="affiche__control-left">
+                  <span class="affiche__control-text"
+                    >ДЛЯ ПРЕДПРИНИМАТЕЛЕЙ</span
+                  >
+                </div>
+                <div class="affiche__control-right">
+                  <span class="affiche__more">Подробнее</span>
+                  <img src="/svg/control-arrow.svg" alt="control-arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="modal-fader" class="modal-fader">
+          <div id="modal" class="modal-window">
+            <form>
+              <img
+                id="modal-close"
+                class="modal-window__close"
+                src="/svg/close.svg"
+                alt="close"
+              />
+              <h2 class="modal-window__header">ЗАЯВКА НА ОКАЗАНИЕ УСЛУГИ</h2>
+              <div class="modal-window__input-container">
+                <div class="modal-window__input-group">
+                  <input
+                    id="name-input"
+                    class="modal-window__input"
+                    type="text"
+                    placeholder="ФИО*"
+                    required
+                  />
+                  <span id="error-text" class="modal-window__error-text"
+                    >ФИО должно содержать только русские буквы</span
+                  >
+                </div>
+                <div class="modal-window__input-group">
+                  <input
+                    class="modal-window__input"
+                    id="input-phone"
+                    required
+                    placeholder="Телефон*"
+                    type="number"
+                    inputmode="tel"
+                  />
+                  <span id="error-text-tel" class="modal-window__error-text"
+                    >Поле обязательно для заполнения</span
+                  >
+                </div>
+                <input
+                  class="modal-window__input"
+                  type="email"
+                  placeholder="E-mail*"
+                />
+                <select class="modal-window__select" placeholder="blabla">
+                  <option class="modal-window__first-option">
+                    Выбрать услугу
+                  </option>
+                  <option>Услуга 1</option>
+                  <option>Услуга 2</option>
+                  <option>Услуга 3</option>
+                  <option>Услуга 4</option>
+                </select>
+                <textarea
+                  name="comment"
+                  id="comment-field"
+                  placeholder="Комментарий"
+                  class="modal-window__textarea"
+                ></textarea>
+              </div>
+              <div class="modal-window__agreement-container">
+                <input
+                  class="modal-window__checkbox"
+                  type="checkbox"
+                  id="scales"
+                  name="scales"
+                  checked
+                />
+                <p class="modal-window__agreement">
+                  Я даю свое согласие Фонду развития бизнеса Краснодарского края
+                  на обработку моих персональных данных, в соответствии с
+                  Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных
+                  данных», на условиях и для целей, определенных
+                  <span class="modal-window__confidential"
+                    >Политикой конфиденциальности</span
+                  >
+                </p>
+              </div>
+              <button id="close-modal" class="modal-window__button">
+                Оставить заявку
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     
   </body>
 </html>
